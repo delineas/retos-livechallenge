@@ -16,7 +16,7 @@
 
 Este podría ser el JSON para utilizar:
 
-````json
+````js
 const tree = {
   tag: "ul",
   children: [
@@ -83,7 +83,7 @@ El reto ya estaría finalizado, pero si quieres ir más allá tienes opciones:
 
 **Ejemplo de árbol complejo para los extras**
 
-````json
+````js
 const tree = {
   tag: "ul",
   children: [
