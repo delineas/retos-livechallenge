@@ -210,7 +210,7 @@ Pero si quieres seguir disfrutando, que no te falte motivación. Son requisitos 
 
 Primero, lo que vas a aprender. 
 
-Segundo, insignias de la gamificación de la Zona Premium. 
+Segundo, insignias de la gamificación de la Zona Premium (estamos trabajando en ello).
 
 Tercero, mi eterno agradecimiento. 
 
