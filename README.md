@@ -3,6 +3,7 @@
 
 
 > En la parte final, las míticas FAQ
+> Al final de cada reto, las soluciones propuestas
 
 
 
@@ -119,6 +120,14 @@ const tree = {
 
 Reto inspirado en el de [IOSamuel](https://github.com/iosamuel/algorithms/tree/master/jsonTreeToHTMLList).
 
+### Soluciones propuestas:
+
+- [@migbara](https://github.com/migbara/webreactiva_reto01_json2html.git)
+- [@Cainuriel](https://github.com/Cainuriel/Reto_LiveChallenge)
+- [@sergioedo](https://github.com/sergioedo/retos-livechallenge)
+- [@skcode7](https://telegra.ph/Live-Challenge-1-02-19)
+- [@Esemega](https://github.com/Esemega/retos-livechallenge)
+
 
 
 ## Reto 2: Un widget de cuenta atrás
@@ -153,6 +162,16 @@ El reto ya estaría finalizado, pero si quieres ir más allá tienes opciones:
 1. Que salte confetti al acabar el contador (te recomiendo usar [confettijs](https://github.com/mathusummut/confetti.js))
 2. Que el contador también muestre los milisegundos.
 3. Añadir botón de empezar, parar y volver al inicio (resetear).
+
+
+
+### Soluciones propuestas:
+
+- [@migbara](https://github.com/migbara/webreactiva_reto01b_counterjs)
+- [@Cainuriel](https://github.com/Cainuriel/Reto_LiveChallenge)
+- [@sergioedo](https://github.com/sergioedo/retos-livechallenge)
+- [@skcode7](https://codepen.io/skcode7/pen/dyORPVN)
+- [@Esemega](https://github.com/Esemega/retos-livechallenge)
 
 
 
