@@ -1,177 +1,138 @@
-# Retos LiveChallenge
+# LiveChallenge #2: ¡Ven a la Fiestapi!
 
 
 
-> En la parte final, las míticas FAQ
-> Al final de cada reto, las soluciones propuestas
+> La vida es un reto.
+>
+> El código también.
+>
+> Participa con el resto de malandriners en un reto de programación que no conoce la zona de confort. 
 
 
 
-## Reto 1: El árbol de jotason a HTML
+## ¿De qué va esto?
+
+Se proponen tres retos de programación que hay que resolver en un tiempo límite.
+
+Cada reto suma una puntuación que será tenida en cuenta en el LiveChallenge en directo donde se podrán presentar las propuestas.
+
+El reto está abierto a cualquier suscriptor/a activo de la Zona Premium de danielprimo.io.
+
+Al final tienes las FAQ con todos los detalles concretos.
+
+La fecha final de entrega es el 25 de Junio a las 18:00. 
 
 
 
-> Crear una función que convierta un árbol de JSON en una lista de HTML.
+## ¿Cuál es el reto técnico?
+
+Vamos a trabajar con una API, un sistema externo que nos devuelve una información cuando se la pedimos.
+
+Usaremos una API abierta de la de la empresa TMB. Nos ofrece todo tipo de información de los transportes del área metropolitana de Barcelona. Es el mundo real, con sus líneas, recorridos, tiempos y rutas.
+
+Nada de API de Chuck Norris ni de Chiquito. Aquí queremos ver cosas de verdad.
+
+La TMB tiene un portal para developers donde puedes darte de alta gratuitamente para conseguir tu API Key.
+
+[Acceso al portal de developers](https://developer.tmb.cat/) (pulsa en "Cómo empezar")
 
 
 
-Este podría ser el JSON para utilizar:
+Este es un ejemplo muy sencillo de cómo conectarse de forma correcta, puedes lanzarlo en la consola del navegador. Verás como la respuesta coincide con la descripción de este recurso en la [documentación](https://developer.tmb.cat/api-docs/v1/transit#operation/parades_linia).
 
-````js
-const tree = {
-  tag: "ul",
-  children: [
-    {
-      text: "Primer elemento"
-    },
-    {
-      text: "Cáspita, otro elemento"
-    },
-    {
-    	text: "El último"
-    }
-  ]
-};
+````javascript
+let api_url = "https://api.tmb.cat/v1/transit/linies/bus/213/parades?app_id=TU_API_ID&app_key=TU_API_KEY"
+
+fetch(
+  api_url
+).then(
+  res => res.json()
+).then(
+  console.log
+)
 ````
 
 
 
-La función sería algo como esto:
-
-````
-convertJsonToHtml(tree)
-````
+Nota: No usaremos el material que se descarga, solo serán válidos los retos presentados contra la API.
 
 
 
-Y el resultado final sería:
+## Reto 1: Listado de líneas y paradas
 
-````html
-<ul>
-	<li>Primer elemento</li>
-	<li>Cáspita, otro elemento</li>
-	<li>El último</li>
-</ul>
-````
+El reto consiste en mostrar en pantalla un selector con todas las líneas de Metro activas de la TMB.
 
+Una vez seleccionada una línea debes mostrar el listado de los nombres de paradas de esa línea.
 
+Al cambiar de opción en el selector, se renueva el listado de paradas.
 
-
-
-**Requisitos**
-
-- El resultado final es una cadena de texto, no es necesario colocarla en una web.
-- Consideramos que el árbol de JSON es correcto.
-- El árbol original no tiene elementos anidados.
+**Pista**: [Aquí](https://developer.tmb.cat/api-docs/v1/transit#operation/parades_linia).
 
 
 
 **Cómo hacerlo**
 
-- Cualquier lenguaje de programación es válido.
+- Cualquier lenguaje de programación es válido pero se amolda muy bien a HTML + CSS.
+
+  
+
+🏆 Este reto sumará 1 punto si es presentado correctamente.
 
 
 
-### Extras
+## Reto 2: Líneas en el mapa
 
-El reto ya estaría finalizado, pero si quieres ir más allá tienes opciones:
+Tenemos un selector de líneas de Metro disponibles para la TMB.
 
-1. Ampliar la función para añadir un parámetro con la indentación del las etiquetas `<li>` (los espacios colocados antes de esa etiqueta)
-2. Permitir elementos anidados usando la propiedad `children` 
-3. Añadir una propiedad para cada `<li>` que permita definir la `class`.
+Al elegir una de ellas debe pintarse la ruta en el mapa.
 
-
-
-**Ejemplo de árbol complejo para los extras**
-
-````js
-const tree = {
-  tag: "ul",
-  children: [
-    {
-      text: "Primer elemento"
-    },
-    {
-      text: "Cáspita, otro elemento",
-      children: [
-        {
-          tag: "ul",
-          children: [
-            {
-              text: 'Primer heredero del cáspita'
-            },
-            {
-              text: 'Último heredero del cáspita'
-            }
-          ]
-        }
-      ]
-    },
-    {
-    	text: "El último"
-    }
-  ]
-};
-````
+**Pista**: Ten en cuenta que en el resultado de la API en cada petición de línea devuelve algo que es compatible con un formato de datos que reconocen muchos mapas.
 
 
 
+**Mapas de Leaflet**
+
+Usaremos Leaflet como referente para crear los mapas.
+
+Tenemos un [curso completo](https://premium.danielprimo.io/cursos/leafletjs) en la Zona Premium donde podrás ver las bases de este sistema.
+
+Puedes resolverlo también con Google Maps o cualquier otro proveedor que permita trabajar con mapas para la web.
 
 
-Reto inspirado en el de [IOSamuel](https://github.com/iosamuel/algorithms/tree/master/jsonTreeToHTMLList).
-
-### Soluciones propuestas:
-
-- [@migbara](https://github.com/migbara/webreactiva_reto01_json2html.git)
-- [@Cainuriel](https://github.com/Cainuriel/Reto_LiveChallenge)
-- [@sergioedo](https://github.com/sergioedo/retos-livechallenge)
-- [@skcode7](https://telegra.ph/Live-Challenge-1-02-19)
-- [@Esemega](https://github.com/Esemega/retos-livechallenge)
-
-
-
-## Reto 2: Un widget de cuenta atrás
-
-
-
-> Crear una cuenta atrás de 20 segundos.
-
-
-
-**Requisitos**
-
-- En una web tener un contador hacia atrás de 20 segundos. 
-- La cuanta atrás arranca cuando cargas la página.
-- Se tiene que ver como baja el contador, solo segundos (20, 19, 18...)
-- Cuando llega a 0 se para.
-- No hace falta un estilo de diseño concreto, ¡imaginación al poder!
 
 
 
 **Cómo hacerlo**
 
-- En un fichero HTML con JavaScript 
-- En un pen de codepen.io
+- Cualquier lenguaje de programación es válido pero se amolda muy bien a HTML + CSS.
+
+  
+
+🏆 Este reto sumará 1 punto si es presentado correctamente.
 
 
 
-### Los extras
+## Reto 3
 
-El reto ya estaría finalizado, pero si quieres ir más allá tienes opciones:
+El reto se desvelará la semana próxima.
 
-1. Que salte confetti al acabar el contador (te recomiendo usar [confettijs](https://github.com/mathusummut/confetti.js))
-2. Que el contador también muestre los milisegundos.
-3. Añadir botón de empezar, parar y volver al inicio (resetear).
+🏆 Este reto sumará 2 puntazos si es presentado correctamente.
 
 
 
-### Soluciones propuestas:
 
-- [@migbara](https://github.com/migbara/webreactiva_reto01b_counterjs)
-- [@Cainuriel](https://github.com/Cainuriel/Reto_LiveChallenge)
-- [@sergioedo](https://github.com/sergioedo/retos-livechallenge)
-- [@skcode7](https://codepen.io/skcode7/pen/dyORPVN)
-- [@Esemega](https://github.com/Esemega/retos-livechallenge)
+
+## LiveChallenge en directo con premios
+
+Las propuestas podrán presentarse en directo el 25 de Junio.
+
+🏆 Si se presenta el código en directo se sumará 1 punto.
+
+
+
+El premio tendrá que ver con los puntos conseguidos, los participantes y cheque regalo de Amazon. 
+
+Se desvelará en qué consiste concretamente la semana próxima.
 
 
 
@@ -179,19 +140,13 @@ El reto ya estaría finalizado, pero si quieres ir más allá tienes opciones:
 
 Todas tus preguntas tienen respuesta.
 
-(No, no te voy a dar el PIN de la tarjeta :P)
-
-
-
 
 
 **¿En qué consiste?**
 
-Propongo dos retos de programación sencillos para que podáis resolverlos de aquí al próximo 19 de Febrero.
+Propongo tres retos de programación que se resolverán en directo.
 
-Resolveré los dos en el directo que celebraremos ese día. 
-
-Estás invitado a presentar tu solución al resto de participantes. Un momento ideal para salir de la zona del confort (sacar el culo de sofá, como digo yo) y hacerlo en una **comunidad coqueta y amistosa**.
+Estás invitado a presentar tu solución al resto de participantes. Un momento ideal para salir de la zona del confort (zona del sofá) y hacerlo en una **comunidad coqueta y amistosa**.
 
 
 
@@ -199,29 +154,31 @@ Estás invitado a presentar tu solución al resto de participantes. Un momento i
 
 Cada reto tiene un punto de partida y unos requisitos básicos.
 
-Puedes hacerlo de forma individual o con otra *malandriner* de la comunidad. 
-
 
 
 **¿De qué van los retos?**
 
-Uno tiene que ver con estructuras de datos. Puedes resolverlo en cualquier lenguaje de programación.
-
-El otro se centra en un widget con JavaScript para la web.
+Queremos mejorar en el manejo de dos tecnologías esenciales para entender la web moderna: las API y los mapas.
 
 
 
-**¿Hay que hacer todos los retos con todos los extras?**
+**¿Hay que hacer todos los retos?**
 
-No, disfruta y llega hasta donde puedas. Lo importante es aprender y pasarlo bien.
+No. Puedes quedarte con el primero, o solo con el segundo o con el tercero o con varias combinaciones.
+
+Los puntos te dan oportunidades a ganar el premio en la sesión en directo.
 
 
 
-**¿Qué son los extras?**
+**¿Cómo funciona el sistema de puntos?**
 
-El reto está completo sin los extras. 
+El reto 1 y el reto 2 suman 1 punto cada uno.
 
-Pero si quieres seguir disfrutando, que no te falte motivación. Son requisitos añadidos que hacen más completo el reto.
+El reto 3 suma 2 puntos.
+
+Las soluciones deben ser correctas para sumar esa puntuación.
+
+Se suma 1 punto más si presentas la solución de los retos que tengas realizados en la sesión en directo del 25 de Junio.
 
 
 
@@ -229,14 +186,35 @@ Pero si quieres seguir disfrutando, que no te falte motivación. Son requisitos 
 
 Primero, lo que vas a aprender. 
 
-Segundo, insignias de la gamificación de la Zona Premium (estamos trabajando en ello).
+Segundo, insignias de la gamificación de la Zona Premium.
 
-Tercero, mi eterno agradecimiento. 
+Tercero, seguro que ganas un buen rato compartiendo tu experiencia con la comunidad.
 
-Cuarto, seguro que ganas un buen rato compartiendo tu experiencia con la comunidad.
-
-
-----
+Cuarto, la posibilidad de ganar un cheque regalo de Amazon. (Más datos sobre cuánto y cómo en unos días.)
 
 
-Si tienes dudas, [pásate por aquí](https://www.danielprimo.io/contacto).
+
+**¿Qué pasará con las soluciones?**
+
+Serán publicadas en la web para ocio y disfrute de la comunidad y el resto del mundo. Esto no es obligatorio, claro.
+
+
+
+**¿Qué es una API?**
+
+En [YouTube](https://www.youtube.com/watch?v=QsrWtqnQGMc) respondo a la pregunta.
+
+Para probar la API también puede interesarte las 3 primeras lecciones del curso de [Pruebas y diseño de APIs con Postman](https://premium.danielprimo.io/cursos/postman).
+
+Aunque en el reto no es necesario, puedes ver como rreamos una en el curso [Crea una API REST artesana con PHP](https://premium.danielprimo.io/cursos/crea-una-api-rest-artesana-con-php).
+
+
+
+## Recursos
+
+- [Documentación de la API de TMB](https://developer.tmb.cat/api-docs/v1)
+- [Curso de LeafletJS](https://premium.danielprimo.io/cursos/leafletjs)
+
+
+
+Cualquier duda, sabes donde encontrarme. Dani.
