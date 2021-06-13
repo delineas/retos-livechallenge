@@ -1,4 +1,4 @@
-# LiveChallenge #2: ¡Ven a la Fiestapi!
+# LiveChallenge #2: ¡Ven a la FiestAPI!
 
 > La vida es un reto.
 > 
