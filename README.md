@@ -88,7 +88,7 @@ Puedes resolverlo también con Google Maps o cualquier otro proveedor que permit
 
 **Ejemplo visual**
 
-https://github.com/delineas/retos-livechallenge/blob/main/videos/Reto-2---Ven-a-la-FiestAPI.mp4
+![](https://user-images.githubusercontent.com/1122071/121818140-b12a7b00-cc85-11eb-94f8-21edc85993f7.gif)
 
 🏆 Este reto sumará 1 punto si es presentado correctamente.
 
@@ -98,7 +98,7 @@ El reto se desvelará la semana próxima.
 
 **Ejemplo visual**
 
-https://github.com/delineas/retos-livechallenge/blob/main/videos/Reto-3---Ven-a-la-FiestAPI.mp4
+![](https://user-images.githubusercontent.com/1122071/121818057-40835e80-cc85-11eb-9756-23a45f891bb0.gif)
 
 🏆 Este reto sumará 2 puntazos si es presentado correctamente.
 
