@@ -58,7 +58,7 @@ Al cambiar de opción en el selector, se renueva el listado de paradas.
 
 **Cómo hacerlo**
 
-*   Cualquier lenguaje de programación es válido pero se amolda muy bien a HTML + CSS.
+*   Cualquier lenguaje de programación es válido. En la captura ves una solución con LeafletJS, JavaScript, HTML y CSS.
 
 **Ejemplo visual**
 
@@ -84,7 +84,7 @@ Puedes resolverlo también con Google Maps o cualquier otro proveedor que permit
 
 **Cómo hacerlo**
 
-*   Cualquier lenguaje de programación es válido pero se amolda muy bien a HTML + CSS.
+*   Cualquier lenguaje de programación es válido. En la captura ves una solución con LeafletJS, JavaScript, HTML y CSS.
 
 **Ejemplo visual**
 
@@ -94,7 +94,15 @@ Puedes resolverlo también con Google Maps o cualquier otro proveedor que permit
 
 ## Reto 3
 
-El reto se desvelará la semana próxima.
+Crearemos un mapa con una caja de texto donde podremos introducir el código de una parada del bus.
+
+Al terminar de completar el código debe pintarse en el mapa la localización de la parada y mostrar información en pantalla de cuánto tiempo falta para que lleguen los próximos buses.
+
+**Pista**: La información de las paradas se consigue del servicio "Transit" de la API de la TMB. La del tiempo de espera del servicio "iBus" de la API de la TMB.
+
+**Cómo hacerlo**
+
+*   Cualquier lenguaje de programación es válido. En la captura ves una solución con LeafletJS, JavaScript, HTML y CSS.
 
 **Ejemplo visual**
 
@@ -154,7 +162,9 @@ Segundo, insignias de la gamificación de la Zona Premium.
 
 Tercero, seguro que ganas un buen rato compartiendo tu experiencia con la comunidad.
 
-Cuarto, la posibilidad de ganar un cheque regalo de Amazon. (Más datos sobre cuánto y cómo en unos días.)
+Cuarto, la posibilidad de ganar un cheque regalo de Amazon. Se sortearán 3 de 25€ cada uno entre los participantes. Cuantos más puntos, más posibilidades de que te toque el cheque.
+
+Un premio por persona.
 
 **¿Qué pasará con las soluciones?**
 
