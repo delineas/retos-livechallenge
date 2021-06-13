@@ -60,6 +60,10 @@ Al cambiar de opción en el selector, se renueva el listado de paradas.
 
 *   Cualquier lenguaje de programación es válido pero se amolda muy bien a HTML + CSS.
 
+**Ejemplo visual**
+
+![](https://user-images.githubusercontent.com/1122071/121817873-50e70980-cc84-11eb-8a80-4f72bfc3633e.gif)
+
 🏆 Este reto sumará 1 punto si es presentado correctamente.
 
 ## Reto 2: Líneas en el mapa
@@ -82,11 +86,19 @@ Puedes resolverlo también con Google Maps o cualquier otro proveedor que permit
 
 *   Cualquier lenguaje de programación es válido pero se amolda muy bien a HTML + CSS.
 
+**Ejemplo visual**
+
+https://github.com/delineas/retos-livechallenge/blob/main/videos/Reto-2---Ven-a-la-FiestAPI.mp4
+
 🏆 Este reto sumará 1 punto si es presentado correctamente.
 
 ## Reto 3
 
 El reto se desvelará la semana próxima.
+
+**Ejemplo visual**
+
+https://github.com/delineas/retos-livechallenge/blob/main/videos/Reto-3---Ven-a-la-FiestAPI.mp4
 
 🏆 Este reto sumará 2 puntazos si es presentado correctamente.
 
