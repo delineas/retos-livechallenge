@@ -28,7 +28,9 @@ Nada de API de Chuck Norris ni de Chiquito. Aquí queremos ver cosas de verdad.
 
 La TMB tiene un portal para developers donde puedes darte de alta gratuitamente para conseguir tu API Key.
 
-[Acceso al portal de developers](https://developer.tmb.cat/) (pulsa en "Cómo empezar")
+[Acceso al portal de developers](https://developer.tmb.cat/)
+
+↗️ [Vídeo explicando el proceso](https://premium.danielprimo.io/cursos/leyendo-codigo/asi-se-comienza-a-consumir-una-api)
 
 Este es un ejemplo muy sencillo de cómo conectarse de forma correcta, puedes lanzarlo en la consola del navegador. Verás como la respuesta coincide con la descripción de este recurso en la [documentación](https://developer.tmb.cat/api-docs/v1/transit#operation/parades_linia).
 
