@@ -48,7 +48,7 @@ fetch(
 
 Nota: No usaremos el material que se descarga, solo serán válidos los retos presentados contra la API.
 
-## Reto 1: Listado de líneas y paradas
+## Reto 1: Listado de líneas de metro y estaciones
 
 El reto consiste en mostrar en pantalla un selector con todas las líneas de Metro activas de la TMB.
 
