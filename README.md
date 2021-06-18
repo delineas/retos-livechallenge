@@ -118,13 +118,17 @@ Las propuestas podrán presentarse en directo el 25 de Junio.
 
 🏆 Si se presenta el código en directo se sumará 1 punto.
 
-El premio tendrá que ver con los puntos conseguidos, los participantes y cheque regalo de Amazon.
+Se sortearán tres cheques regalo de Amazon entre los participantes. Cada punto es un boleto en el sorteo.
 
-Se desvelará en qué consiste concretamente la semana próxima.
+➡️ Para participar debes enviar tus propuestas de solución en [este formulario](https://forms.gle/gFyYpstdtCZyPTj59) antes de las 17:00 horas (horario de Madrid) del 25 de Junio de 2021.
 
-## Las míticas FAQ
+# Las míticas FAQ
 
 Todas tus preguntas tienen respuesta.
+
+**¿Quién puede participar?**
+
+Suscriptores en activo a la Zona Premium de danielprimo.io.
 
 **¿En qué consiste?**
 
@@ -134,7 +138,7 @@ Estás invitado a presentar tu solución al resto de participantes. Un momento i
 
 **¿Cómo participo?**
 
-Cada reto tiene un punto de partida y unos requisitos básicos.
+Cada reto tiene un punto de partida y unos requisitos básicos. Debes enviar tus soluciones a  [este formulario](https://forms.gle/gFyYpstdtCZyPTj59) antes de las 17:00 horas (horario de Madrid) del 25 de Junio de 2021.
 
 **¿De qué van los retos?**
 
