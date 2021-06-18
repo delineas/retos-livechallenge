@@ -94,7 +94,7 @@ Puedes resolverlo también con Google Maps o cualquier otro proveedor que permit
 
 🏆 Este reto sumará 1 punto si es presentado correctamente.
 
-## Reto 3
+## Reto 3: Paradas de Bus y tiempo de espera
 
 Crearemos un mapa con una caja de texto donde podremos introducir el código de una parada del bus.
 
