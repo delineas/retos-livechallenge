@@ -16,7 +16,7 @@ El reto está abierto a cualquier suscriptor/a activo de la Zona Premium de dani
 
 Al final tienes las FAQ con todos los detalles concretos.
 
-La fecha final de entrega es el 25 de Junio a las 18:00.
+La fecha final de entrega es el 25 de Junio a las 17:00.
 
 ## ¿Cuál es el reto técnico?
 
