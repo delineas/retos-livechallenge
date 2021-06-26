@@ -6,6 +6,42 @@
 > 
 > Participa con el resto de malandriners en un reto de programación que no conoce la zona de confort.
 
+## Tabla de contenidos
+
+  * [Actualización: Reto finalizado](#actualizaci-n--reto-finalizado)
+  * [¿De qué va esto?](#-de-qu--va-esto-)
+  * [¿Cuál es el reto técnico?](#-cu-l-es-el-reto-t-cnico-)
+  * [Reto 1: Listado de líneas de metro y estaciones](#reto-1--listado-de-l-neas-de-metro-y-estaciones)
+  * [Reto 2: Líneas en el mapa](#reto-2--l-neas-en-el-mapa)
+  * [Reto 3: Paradas de Bus y tiempo de espera](#reto-3--paradas-de-bus-y-tiempo-de-espera)
+  * [LiveChallenge en directo con premios](#livechallenge-en-directo-con-premios)
+  * [Las míticas FAQ](#las-m-ticas-faq)
+  * [Recursos](#recursos)
+
+
+## Actualización: Reto finalizado
+
+El 25 de Junio celebramos la FiestAPI en directo con la presentación de los retos presentados.
+
+
+- [Juanjo](https://github.com/jotajotaramos/lineas_metro_barcelona_front) (PHP + JavaScript)
+
+- Carlos (GeneXus)
+
+- [Borja](https://github.com/niltsiar/retos-livechallenge/tree/develop) (Kotlin)
+
+- Xurxo (JavaScript)
+
+- [Miguel](https://codepen.io/migbara/full/jOBKxPG) (JavaScript)
+
+- José Manuel (JavaScript)
+
+- [Sergi](https://github.com/sergioedo/retos-livechallenge/tree/live-challenge-2/reto-api-tmb) (React)
+
+Infintas gracias por vuestro tiempo y por vuestros códigos "al desnudo" :)
+
+
+
 ## ¿De qué va esto?
 
 Se proponen tres retos de programación que hay que resolver en un tiempo límite.
